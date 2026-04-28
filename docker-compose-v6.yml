@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:oracle
+    image: mysql:latest
     container_name: gost-mysql
     restart: unless-stopped
     environment:
